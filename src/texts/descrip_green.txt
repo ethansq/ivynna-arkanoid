@@ -1,0 +1,1 @@
+Green blocks have 1 hitpoint, and are the weakest of the bunch.

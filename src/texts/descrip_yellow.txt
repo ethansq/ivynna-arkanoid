@@ -1,0 +1,1 @@
+Yellow blocks have 4 hitpoints, and are decently sturdy.

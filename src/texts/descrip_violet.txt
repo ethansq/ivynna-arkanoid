@@ -1,0 +1,1 @@
+Violet blocks have 2 hitpoints, and are quite vulnerable.

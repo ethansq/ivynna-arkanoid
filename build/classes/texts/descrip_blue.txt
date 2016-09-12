@@ -1,0 +1,1 @@
+Blue blocks have 3 hitpoints, and are rather frail.

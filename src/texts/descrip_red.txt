@@ -1,0 +1,1 @@
+Red blocks have 5 hitpoints, and are opulently durable.
