@@ -284,20 +284,20 @@ public class Arkanoid extends JPanel implements Runnable {
                 Blocks brick;
                 for (int x = 0; x < 13; x++) {
                     String text = textLine.nextToken();
-                    if (text.equals("inv")) {
+                    if (text.equals("inv")) { // invincible
                         brick = new Blocks(0 + brickWidth * x, 95 + brickHeight * y, 50, 22, Color.WHITE, 1); //makes an invincible block -1
                     } else if (x == 0 || x == 12 || y == 0 || y == 11) {
                         brick = new Blocks(0 + brickWidth * x, 95 + brickHeight * y, 50, 22, Color.WHITE, 1); //makes a green block 1
                     } else if (x == 1 || x == 11) {
-                        brick = new Blocks(0 + brickWidth * x, 95 + brickHeight * y, 50, 22, Color.WHITE, 1); //makes a red block 5 
+                        brick = new Blocks(0 + brickWidth * x, 95 + brickHeight * y, 50, 22, Color.WHITE, 5); //makes a red block 5 
                     } else if (x == 2 || x == 10) {
-                        brick = new Blocks(0 + brickWidth * x, 95 + brickHeight * y, 50, 22, Color.WHITE, 1); //makes a yellow block 4
+                        brick = new Blocks(0 + brickWidth * x, 95 + brickHeight * y, 50, 22, Color.WHITE, 4); //makes a yellow block 4
                     } else if (x == 3 || x == 9) {
-                        brick = new Blocks(0 + brickWidth * x, 95 + brickHeight * y, 50, 22, Color.WHITE, 1); //makes a violet block 2
+                        brick = new Blocks(0 + brickWidth * x, 95 + brickHeight * y, 50, 22, Color.WHITE, 2); //makes a violet block 2
                     } else if (x == 4 || x == 8) {
-                        brick = new Blocks(0 + brickWidth * x, 95 + brickHeight * y, 50, 22, Color.WHITE, 1); //makes a gray block 6
+                        brick = new Blocks(0 + brickWidth * x, 95 + brickHeight * y, 50, 22, Color.WHITE, 6); //makes a gray block 6
                     } else {
-                        brick = new Blocks(0 + brickWidth * x, 95 + brickHeight * y, 50, 22, Color.WHITE, 1); //makes a blue block 3
+                        brick = new Blocks(0 + brickWidth * x, 95 + brickHeight * y, 50, 22, Color.WHITE, 3); //makes a blue block 3
                     }
                     blocks.add(brick);
                 }
